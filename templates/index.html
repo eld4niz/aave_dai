@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>AAVE V2 - DAI Data</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+  </head>
+  <body>
+    <div class="container">
+      <div class="box">
+        <div class="title">tvlUsd</div>
+        <div class="value">{{ data['tvlUsd'] }}</div>
+      </div>
+      <div class="box">
+        <div class="title">apy</div>
+        <div class="value">{{ data['apy'] }}</div>
+      </div>
+      <div class="box">
+        <div class="title">apyPct1D</div>
+        <div class="value">{{ data['apyPct1D'] }}</div>
+      </div>
+      <div class="box">
+        <div class="title">apyPct7D</div>
+        <div class="value">{{ data['apyPct7D'] }}</div>
+      </div>
+      <div class="box">
+        <div class="title">apyPct30D</div>
+        <div class="value">{{ data['apyPct30D'] }}</div>
+      </div>
+      <div class="box">
+        <div class="title">totalLiquidity</div>
+        <div class="value">{{ data['totalLiquidity'] }}</div>
+      </div>
+      <div class="box">
+        <div class="title">totalBorrowsNormalized</div>
+        <div class="value">{{ data['totalBorrowsNormalized'] }}</div>
+      </div>
+      <div class="box">
+        <div class="title">utilizationRate</div>
+        <div class="value">{{ data['utilizationRate'] }}</div>
+      </div>
+      <div class="box">
+        <div class="title">variableBorrowRate</div>
+        <div class="value">{{ data['variableBorrowRate'] }}</div>
+      </div>
+      <div class="box">
+        <div class="title">stableBorrowRate</div>
+        <div class="value">{{ data['stableBorrowRate'] }}</div>
+      </div>
+      <div class="box">
+        <div class="title">reserveLiquidationThreshold</div>
+        <div class="value">{{ data['reserveLiquidationThreshold'] }}</div>
+      </div>
+      <div class="box">
+        <div class="title">reserveLiquidationBonus</div>
+        <div class="value">{{ data['reserveLiquidationBonus'] }}</div>
+      </div>
+      <div class="box">
+        <div class="title">baseLTVasCollateral</div>
+        <div class="value">{{ data['baseLTVasCollateral'] }}</div>
+      </div>
+      <div class="box">
+        <div class="title">usageAsCollateralEnabled</div>
+        <div class="value">{{ data['usageAsCollateralEnabled'] }}</div>
+      </div>
+      <div class="box">
+        <div class="title">reserveFactor</div>
+        <div class="value">{{ data['reserveFactor'] }}</div>
+      </div>
+    </div>
+  </body>
+</html>

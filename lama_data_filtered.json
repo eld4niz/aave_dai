@@ -1,0 +1,38 @@
+[
+    {
+        "chain": "Ethereum",
+        "project": "aave-v2",
+        "symbol": "DAI",
+        "tvlUsd": 67421789,
+        "apyBase": 1.60594,
+        "apyReward": null,
+        "apy": 1.60594,
+        "rewardTokens": null,
+        "pool": "405d8dad-5c99-4c91-90d3-82813ade1ff1",
+        "apyPct1D": 0.03285,
+        "apyPct7D": -0.05697,
+        "apyPct30D": -0.04945,
+        "stablecoin": true,
+        "ilRisk": "no",
+        "exposure": "single",
+        "predictions": {
+            "predictedClass": "Stable/Up",
+            "predictedProbability": 79,
+            "binnedConfidence": 3
+        },
+        "poolMeta": null,
+        "mu": 1.12455,
+        "sigma": 0.01893,
+        "count": 225,
+        "outlier": false,
+        "underlyingTokens": [
+            "0x6B175474E89094C44Da98b954EedeAC495271d0F"
+        ],
+        "il7d": null,
+        "apyBase7d": null,
+        "apyMean30d": 1.62754,
+        "volumeUsd1d": null,
+        "volumeUsd7d": null,
+        "apyBaseInception": null
+    }
+]
