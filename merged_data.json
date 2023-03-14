@@ -1,0 +1,17 @@
+{
+    "tvlUsd": 315047615,
+    "apy": 0.2419,
+    "apyPct1D": 0.0182,
+    "apyPct7D": -1.3335,
+    "apyPct30D": -1.4044,
+    "totalLiquidity": 415326229.1472,
+    "totalBorrowsNormalized": 9323863720.517,
+    "utilizationRate": 0.2204,
+    "variableBorrowRate": 0.0111,
+    "stableBorrowRate": 0.1113,
+    "reserveLiquidationThreshold": 0.87,
+    "reserveLiquidationBonus": 0.04,
+    "baseLTVasCollateral": 0.75,
+    "usageAsCollateralEnabled": true,
+    "reserveFactor": 0.1
+}
