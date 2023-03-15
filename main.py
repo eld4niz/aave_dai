@@ -4,9 +4,12 @@ from data_extractor import defilama_api, aave_api
 import threading
 import time
 
+
 app = Flask(__name__)
 
+
 def merge_data():
+
     defilama_data = defilama_api()
     aave_data = aave_api()
 
@@ -14,6 +17,7 @@ def merge_data():
     merged_data = {}
     merged_data.update(defilama_data)
     merged_data.update(aave_data)
+
 
     # convert strings to floats and round all numbers to 4 decimal places
     def round_numbers(obj):
@@ -31,19 +35,24 @@ def merge_data():
         else:
             return obj
 
+
     merged_data = round_numbers(merged_data)
+
 
     # write data to file
     with open('merged_data.json', 'w') as f:
         json.dump(merged_data, f, indent=4)
+
 
 def run_loop():
     while True:
         merge_data()
         time.sleep(300)  # Delay execution for 5 minutes
 
+
 @app.route('/')
 def index():
+    
     thread = threading.Thread(target=run_loop)
     thread.start()
 
@@ -52,6 +61,7 @@ def index():
         data = json.load(f)
 
     return render_template('index.html', data=data)
+
 
 if __name__ == '__main__':
     app.run(debug=True)
