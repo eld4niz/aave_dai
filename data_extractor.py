@@ -44,6 +44,7 @@ def aave_api():
     
     for item in data:
         extracted_item = {
+            'price': item['price']['priceInEth'],
             'totalLiquidity': item['totalLiquidity'],
             'totalBorrowsNormalized': item['totalBorrowsNormalized'],
             'utilizationRate': item['utilizationRate'],

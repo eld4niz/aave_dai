@@ -1,8 +1,9 @@
 {
     "tvlUsd": 279155750,
-    "apy": 0.2975,
+    "apy": 0.29746,
     "apyBase7d": null,
-    "apyMean30d": 1.4271,
+    "apyMean30d": 1.42709,
+    "price": 0.0006,
     "totalLiquidity": 371618898.7967,
     "totalBorrowsNormalized": 9333979019.4247,
     "utilizationRate": 0.2495,
