@@ -1,0 +1,16 @@
+{
+    "tvlUsd": 279155750,
+    "apy": 0.2975,
+    "apyBase7d": null,
+    "apyMean30d": 1.4271,
+    "totalLiquidity": 371618898.7967,
+    "totalBorrowsNormalized": 9333979019.4247,
+    "utilizationRate": 0.2495,
+    "variableBorrowRate": 0.0126,
+    "stableBorrowRate": 0.1121,
+    "reserveLiquidationThreshold": 0.87,
+    "reserveLiquidationBonus": 0.04,
+    "baseLTVasCollateral": 0.75,
+    "usageAsCollateralEnabled": true,
+    "reserveFactor": 0.1
+}
